@@ -1,5 +1,5 @@
 ---
-- name: Install IIS
+- name: Install and configure IIS
   hosts: windows
   gather_facts: false
   tasks:
