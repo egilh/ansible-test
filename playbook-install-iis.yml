@@ -12,5 +12,5 @@
         include_management_tools: yes
     - name: Download simple web site to 'C:\inetpub\wwwroot\ansible.html'
       win_get_url:
-        url: 'https://raw.githubusercontent.com/egilh/ansible-test/master/index.html'
+        url: 'https://raw.githubusercontent.com/egilh/ansible-test/master/test.html'
         dest: 'C:\inetpub\wwwroot\test.html'
